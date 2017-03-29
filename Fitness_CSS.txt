@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) {
+    .et_pb_column .et_pb_newsletter_form {
+        width: 100%;
+    }
+}
+@media(max-width:799px) {
+    #Intro:before {
+        position: absolute;
+        content: " ";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4) !important;
+    }
+}
+@media only screen and (min-width: 981px) {
+    .Gym_Email_field {
+        width: 55%;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .Intro-Section {
+        background-size: contain;
+        background-position: right;
+    }
+    #Gallery:before {
+        content: " ";
+        width: 100% !important;
+        height: 100px;
+        border-radius: 50%/100px 100px 0 0;
+        background: #fff;
+        visibility: visible !important;
+        display: block;
+        margin-top: -150px;
+    }
+}
+@media(min-width: 980px) {
+    .et_pb_column_1_2 .et_pb_map {
+        height: 345px;
+    }
+}
+@media(min-width:800px) {
+    .gym_call_action .et_pb_promo_description {
+        text-align: left;
+    }
+    .gym_call_action .et_pb_promo_button.et_pb_button {
+        position: absolute;
+        right: 0;
+        bottom: 30px;
+    }
+    .Gym_slider .et_pb_slide.et_pb_bg_layout_dark {
+        height: 512px;
+    }
+}
+@media(min-width:985px) and (max-width:1260px) {
+    .Gym_headline .et_pb_text.et_pb_module {
+        font-size: 55px;
+    }
+    .Gym_headline .Gym_black_headline {
+        font-size: 36px !important;
+        letter-spacing: 5px !important;
+    }
+}
